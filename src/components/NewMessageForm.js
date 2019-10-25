@@ -7,6 +7,10 @@ class NewMessageForm extends React.Component {
     conversation_id: this.props.conversation_id
   }
 
+  componentWillReceiveProps({ conversation_id }) {
+    this.setState({...this.state, conversation_id})
+  }
+
   handleChange = e => {
     this.setState({ text: e.target.value })
   }
