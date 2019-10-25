@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+}
+
+body {
+  background-image: url("http://www.theelitesng.com/wp-content/uploads/2016/01/image.gif");
+}
+
+.login {
+  color: #cacaca;
+  position: fixed;
+  top: 160px;
+  left: 210px;
+  display: block;
+  text-align: center;
+  /* display: flex;
+  flex-direction: row; */
+  background-color: black;
+  margin: 20px;
+  padding: 30px 70px;
+  border-radius: 15px;
+}
+
+.login-input {
+  padding: 5px;
+}
+
+.login-input * {
+  display: block;
+}
